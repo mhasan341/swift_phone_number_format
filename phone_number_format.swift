@@ -1,9 +1,8 @@
  
 
     // no matter what the format is, from opposite, the reverse 10 digit will always be correct number
-    ```swift
-      
-    func formatNumber(_ number: String) -> String {
+   
+   func formatNumber(_ number: String) -> String {
     
         
         let rev = String(number.components(separatedBy: CharacterSet.decimalDigits.inverted).joined().reversed())
@@ -13,4 +12,3 @@
         
         return finalNumber
     }
-    ```
